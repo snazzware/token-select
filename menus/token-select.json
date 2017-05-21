@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle token-select",
+        "command": "token-select:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "token-select",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "token-select:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

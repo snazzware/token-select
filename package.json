@@ -1,0 +1,18 @@
+{
+  "name": "token-select",
+  "main": "./lib/token-select",
+  "version": "0.0.1",
+  "description": "Allows selection of a delimited token from every line in the editor. E.g. select the 3rd column in a CSV file.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "token-select:toggle"
+  },
+  "repository": "https://github.com/atom/token-select",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
